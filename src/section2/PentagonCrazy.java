@@ -11,6 +11,8 @@ public class PentagonCrazy {
 	private void makePrettyThings() {
 		// 1. Create a new Robot
 Robot r2d2 = new Robot();
+r2d2.setRandomPenColor();
+r2d2.penDown();
 		// 3. Put the robot's pen down
 r2d2.penDown();
 		// 8. Make the robot go at maximum speed (10)
